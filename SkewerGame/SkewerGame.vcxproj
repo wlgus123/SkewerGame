@@ -123,17 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="IState.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mtg.c" />
-    <ClCompile Include="skewer.cpp" />
+    <ClCompile Include="Queue.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="IState.h" />
     <ClInclude Include="mtg.h" />
-    <ClInclude Include="skewer.h" />
+    <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="UI.txt" />
